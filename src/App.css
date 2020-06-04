@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+/* #components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+#DC3D24
+#232B2B
+#FFFFFF
+#E3AE57
+
+#221E1D
+#ECEAE0
+#63AA9C
+#E9633B
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+} */
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background: lightgrey;
+  color: darkgray;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); 
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+  border: none;
+  border: 3px solid ;
+  outline: none;
+  font-size: 16px;
+  /* margin: 8px 8px; */
+  /* box-sizing: border-box; */
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./bookimage.jpg);
+  /* background-color: #221E1D; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.rememberr {
+  float: left;
+  margin: 13px;
+  padding: 0;
+  text-decoration: none;
+  font-size: 14px;
+  /* line-height: 20px; */
+  color:#4C3327;
+  line-height: 30px;
+}
+.rememberr:hover {
+  color: red;
+  cursor: pointer;
+}
+.login-form-forgot {
+  float: right;
+  margin: 13px;
+  padding: 0;
+  text-decoration: none;
+  font-size: 12px;
+  /* line-height: 20px; */
+  color: #4C3327;
+  line-height: 30px;
+
+}
+.login-form-forgot:hover {
+  color: red;
+}
+.site-form-item-icon {
+  width: 20%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: transparent;
+  outline: none;
+  height: 25px;
+  color: black;
+  font-size: 18px;
+}
+.login-form-button { 
+  background: #221E1D ;
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+
+}
+.login-form-button:hover
+{
+  cursor: pointer;
+  background: darkred;
+  color: #000;
+}
+.registerr {
+  margin: 15px;
+  padding: 0;
+  color: #4C3327;
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 50px;
+}
+.registerr:hover
+{
+  cursor: pointer;
+  /* background:darkgreen; */
+  color:red;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
