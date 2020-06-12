@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {Link } from "react";
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import './Loginstyles.css';
+import renderEmpty from 'antd/lib/config-provider/renderEmpty';
 const Signin = () => {
   const onFinish = values => {
     console.log('Received values of form: ', values);
   };
-
   return (
       <div class = "loginbox">
-          {/* <img src="C:\Users\Sanjana\Desktop\CAPSTONE\final-project\public\bookimage.jpg" className="bookimage"  /> */}
         {/* <img src = "https://collegeinfogeek.com/wp-content/uploads/2018/11/Essential-Books.jpg" className = "avatar" /> */}
     <Form
       name="normal_login"
@@ -48,12 +49,17 @@ const Signin = () => {
         <Button type="primary" htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        Or <a className = "registerr"href="">register now!</a>
+        Or <a className = "registerr"href="/register.js">Register now!</a>
+         {/* Or <a className = "registerr">Back <Link to = {"/register"}>Here</Link></a> */}
+         {/* <p className="registerr">
+            Or<Link to={"/Register"}>Register Now!</Link>
+        </p> */}
       </Form.Item>
     </Form>
     </div>
   );
 };
+
 
 // ReactDOM.render(<NormalLoginForm />, mountNode);
 export default Signin;

@@ -1,0 +1,50 @@
+.footerlogocontainer {
+    background-color: #171D4B;
+    /* color: #171D4B; */
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.menu-img {
+    padding: 0px 0px;
+}
+.projectName-footer h3 {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    padding: 0px 100px;
+    
+}
+.title {
+    text-align: end;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    
+}
+/* .list-unstyled a {
+    text-align: end;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+} */
+.col-md-8 .list-unstyled {
+    text-align: end;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+.footer-copyright {
+    color: white;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.list-unstyled a {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+.list-unstyled {
+    align-self: left
+    ;
+}

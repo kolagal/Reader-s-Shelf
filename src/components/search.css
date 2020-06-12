@@ -1,0 +1,13 @@
+.btn {
+    color : rgb(100, 86, 86);
+    /* // background-color : rgb(23, 29, 75); */
+    background-color: white;
+    /* background-color : #171D4B; */
+    /* //barlow */
+}
+.form-group {
+    margin-bottom: 0rem;
+}
+.text-blue {
+    font-family: 'Barlow', sans-serif;
+}

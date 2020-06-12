@@ -1,0 +1,24 @@
+.search-container {
+    padding: 1rem 2rem !important;
+  }
+  .text-muted h3 {
+    font-family: 'Barlow', sans-serif;
+    color: black !important;
+  }
+  .carousel .item img {
+    width: 100%;
+    height: 400px;
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 370px;
+    width: auto;
+    /* line-height: 160px; */
+    /* background: #364d79; */
+    background: white;
+    overflow: hidden;
+}
+  
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
