@@ -124,10 +124,3 @@ Search.propTypes = {
 };
 
 export default Search;
-// const sea = styled.div`
-// .row {
-//   color: red;
-//   background-color: red;
-// }
-
-// `;
