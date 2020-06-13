@@ -21,11 +21,6 @@ export class App extends Component {
   render() {
     return (
       <div>
-        {/* <div style = {{
-        backgroundColor: 'pink',
-        width: '100px',
-        height: '100px'
-      }} /> */}
       <Navbar />
       <div>
         <React.Fragment>
