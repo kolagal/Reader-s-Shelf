@@ -10,7 +10,6 @@ const Signin = () => {
   };
   return (
       <div class = "loginbox">
-        {/* <img src = "https://collegeinfogeek.com/wp-content/uploads/2018/11/Essential-Books.jpg" className = "avatar" /> */}
     <Form
       name="normal_login"
       className="login-form"
