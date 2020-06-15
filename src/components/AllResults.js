@@ -8,7 +8,6 @@ const AllResults = ({ books, expandBook }) => {
     <div className="row">
       {books.map(book => (
         <SearchResult bookData={book} key={book.id} expandBook={expandBook} />
-        // <ActionPage bookData={book} key={book.id} expandBook={expandBook} />
       ))}
     </div>
   );
