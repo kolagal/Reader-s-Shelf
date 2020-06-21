@@ -143,8 +143,6 @@ Search.propTypes = {
   export default Details
 /* https://www.goodreads.com/book/show/ */
 
-
-{/* <Action className = "col-9 mx-auto col-md-6 col-lg-3 my-3"> */}
 {/* <div className = "card">
 <div className = "img-container p-5">
 <Card
