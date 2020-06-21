@@ -143,20 +143,6 @@ Search.propTypes = {
   export default Details
 /* https://www.goodreads.com/book/show/ */
 
-{/* <div className = "card">
-<div className = "img-container p-5">
-<Card
-hoverable
-style={{ width: 240 }}
-cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
->
-<div className="card-footer d-flex justify-content-between">
-<h5 className = "align-self-center mb-1">
-    {title}
-</h5>
-<Meta title="Europe Street beat" description="www.instagram.com" />
-</div>
-</Card>,
 
 <Card
 hoverable
